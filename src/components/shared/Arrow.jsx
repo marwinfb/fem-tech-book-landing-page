@@ -1,9 +1,8 @@
-import ArrowDown from "../../assets/images/icon-arrow-down.svg"
-import ArrowUp from "../../assets/images/icon-arrow-up.svg"
+import images from "../../assets/images/assets"
 
 function Arrow({direction}) {
   return (
-    <span><img src={direction === "downward" ? ArrowDown : ArrowUp} alt="Arrow" width={24} height={24} /></span>
+    <span><img src={direction === "down" ? images.icon_arrow_down : images.icon_arrow_up} alt="Arrow" width={24} height={24} /></span>
   )
 }
 export default Arrow

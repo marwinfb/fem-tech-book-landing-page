@@ -1,4 +1,4 @@
-import Logo from "../../assets/images/logo.svg"
+import images from "../../assets/images/assets"
 
 import Container from "../shared/Container"
 
@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <header className="bg-primary-neutral-100 pt-6">
       <Container>
-        <img src={Logo} alt="" />
+        <img src={images.logo} alt="" />
       </Container>
     </header>
   )
