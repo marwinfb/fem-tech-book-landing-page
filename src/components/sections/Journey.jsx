@@ -8,9 +8,9 @@ function Journey() {
         <section>
             <Container>
                 <div className="px-4 rounded-xl overflow-hidden bg-pattern-light bg-primary-neutral-100 relative">
-                    {/* <img src={images.pattern_glow} alt="PatternGlow" className="max-w-full absolute top-[0%] left-[0%] z-0" width={684} height={684} /> */}
+                    <img src={images.pattern_glow} alt="PatternGlow" className="absolute left-[40%] top-[40%] scale-200 w-full h-full bg-cover" />
                     <div className='py-20 relative z-1'>
-                        <Headline className="w-2/3">Your tech reading journey</Headline>
+                        <Headline className="w-2/3 md:w-full">Your tech reading journey</Headline>
                         <div className='flex flex-col gap-10 mt-16'>
                             {journeyListsData.map((list, index) => (
                                 <div key={list.id} className="space-y-4">

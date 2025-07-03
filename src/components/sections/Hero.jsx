@@ -11,7 +11,7 @@ function Hero() {
         <Container>
             <div className="grid grid-cols-1 gap-16">
                 <div>
-                    <h1 className="font-bold text-[38px] leading-[1.2] tracking-[-2px]"><span className="block text-transparent bg-clip-text bg-linear-[107deg,#FF9A60_-11.37%,#062630_61.84%]">Join the ultimate tech book club</span></h1>
+                    <h1 className="font-bold text-[38px] md:text-[62px] leading-[1.2] tracking-[-2px] max-w-xl"><span className="block text-transparent bg-clip-text bg-linear-[107deg,#FF9A60_-11.37%,#062630_61.84%]">Join the ultimate tech book club</span></h1>
                     <p className="text-xl leading-[1.4] tracking-[-0.5px] text-primary-neutral-700 mt-6 mb-8">Turn your reading time into learning time with fellow tech enthusiasts. Get curated recommendations, join vibrant discussions, and level up your skills one chapter at a time.</p>
                     <Button>Review membership options<Arrow direction="down" /></Button>
                     <Ratings isDark />

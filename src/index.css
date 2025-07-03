@@ -47,6 +47,10 @@
   .bg-pattern-light {
     @apply bg-[url('../src/assets/images/pattern-light-bg.svg')] bg-repeat;
   }
+
+  .bg-pattern-dark {
+    @apply bg-[url('../src/assets/images/pattern-dark-bg.svg')] bg-repeat;
+  }
   
   /* .bg-pattern-dark {
     @apply bg-[url('../src/assets/images/pattern-dark-bg.svg')] bg-repeat;
