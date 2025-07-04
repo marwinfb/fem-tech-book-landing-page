@@ -7,7 +7,7 @@ import Review from "./components/sections/Review"
 
 function App() {
   return (
-    <Layout title="Tech Book Club">
+    <Layout title="Frontend Mentor | Tech book club">
       <Hero />
       <Feature />
       <Journey />

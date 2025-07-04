@@ -4,9 +4,11 @@ import Container from "../shared/Container"
 
 function Navbar() {
   return (
-    <header className="bg-primary-neutral-100 pt-6">
+    <header className="bg-primary-neutral-100 pt-6 bg-pattern-light">
       <Container>
-        <img src={images.logo} alt="" />
+        <a href="">
+          <img src={images.logo} alt="Tech Book Club Logo" />
+        </a>
       </Container>
     </header>
   )
