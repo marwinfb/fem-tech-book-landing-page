@@ -36,14 +36,6 @@
 }
 
 @layer utilities {
-  /* .btn-primary-hover-gradient {
-    @apply hover:bg-[linear-gradient(to_right,var(--color-secondary-100),var(--color-secondary-50))];
-  } */
-  
-  /* .btn-secondary-hover-gradient {
-    @apply hover:bg-[linear-gradient(to_right,var(--color-primary-700),var(--color-primary-900))];
-  } */
-  
   .bg-pattern-light {
     @apply bg-[url('../src/assets/images/pattern-light-bg.svg')] bg-repeat;
   }
@@ -51,12 +43,4 @@
   .bg-pattern-dark {
     @apply bg-[url('../src/assets/images/pattern-dark-bg.svg')] bg-repeat;
   }
-  
-  /* .bg-pattern-dark {
-    @apply bg-[url('../src/assets/images/pattern-dark-bg.svg')] bg-repeat;
-  } */
-  
-  /* .bg-featured-card {
-    @apply bg-[url('../src/assets/images/pattern-glow.svg')] bg-primary-100 bg-no-repeat;
-  } */
 }

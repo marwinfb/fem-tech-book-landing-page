@@ -1,4 +1,4 @@
-function StarRating({rating = 0, maxStars = 5, size = 24, imageSrc}) {
+function StarRating({rating = 0, size = 24, imageSrc}) {
   const fullStars = Math.floor(rating);
 
   const stars = Array.from({ length: fullStars }, (_, i) => (
